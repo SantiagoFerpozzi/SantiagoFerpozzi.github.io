@@ -1,0 +1,127 @@
+body{
+    background-color: gray;
+    margin: 0px;
+}
+.favicon{
+    background-color: white;
+}
+dialog{
+    z-index: 3;
+}
+nav{
+    background-color: #942d09;
+    border: solid 1px black;   
+     
+}
+button{
+    border: 0;
+    padding: 0px;
+    font-size: 30px;
+    cursor: pointer;
+    justify-content: right;
+    margin-left: 90%;
+    background-color:  #942d09;
+    cursor: pointer;   
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-image: url("Imagen\ de\ WhatsApp\ 2023-02-12\ a\ las\ 13.20.32hghghgh.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    opacity: 0.8;
+    border: solid 1px;
+    position: relative;
+    border-bottom: solid 4px;
+    border-color:  #942d09;
+    
+}
+.elementos_header{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.nombre{
+    border-bottom: 4px double black;
+}
+.contenedor_foto{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   height: 100vh;
+   margin-top: -280px;
+   position: relative;
+   z-index: 2;
+}
+.foto_perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black ;
+    position: relative;
+}
+article{
+    position: relative;
+    margin-top: -361px;
+    padding-top: 150px;
+    background-color: #efefef;
+    width: 100%;
+    border: solid 1px;
+    position: absolute;
+    border-bottom: solid 4px;
+    z-index: 1;
+}
+.titulo_categoria{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;  
+}
+#PopUp::backdrop{
+    background-color: rgba(0, 0, 0, 0.60);
+}
+#PopUp{
+    padding: 30px;
+    text-align: center;
+    max-width: 100ch;
+    background-color: #efefef;
+    
+}
+#cerrarPopUp {
+    font-size: smaller;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    color: #efefef;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.botonContacto{
+    margin: 0;
+    padding: 5px;
+    background-color: #efefef;
+}
+.botonesContacto{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
